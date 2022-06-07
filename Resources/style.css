@@ -1,0 +1,83 @@
+/*Universal Styles*/
+
+html{
+    margin: 20px 30px;
+}
+
+div {
+    border: solid gray 2px;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Lato';
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+p, li {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+/*Colors section*/
+
+.colors p {
+    display: inline-block;
+    padding: 40px 40px;
+    margin: 0 2px;
+}
+
+.red {
+    color: white;
+    background-color: #E27D60;
+}
+
+.lightblue {
+    color: white;
+    background-color: #85DCB0;
+}
+
+.orange {
+    color:white;
+    background-color: #E8A87C;
+}
+
+.purple {
+    color: white;
+    background-color: #C38D9E;
+}
+
+.green {
+    color: white;
+    background-color: #41b3a3;
+}
+
+/*Fonts section*/
+
+.arial {
+    font-family: arial, sans-serif;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
