@@ -8,6 +8,8 @@ const generateTarget = () =>{
 }
 
 const compareGuesses = (humanGuess, computerGuess, target) => {
+    if(humanGuess < 0 || humanGuess > 9) {window.alert('Number Needs To Be Between 0 and 9')};
+    end;
     let humanResult = target - humanGuess;
     let computerResult = target - computerGuess;
     if(Math.abs(humanResult) <= Math.abs(computerResult)){return true} else{return false}
